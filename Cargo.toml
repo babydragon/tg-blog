@@ -1,0 +1,13 @@
+[package]
+name = "tg-blog"
+version = "0.1.0"
+authors = ["babydragon <jlj.babydragon@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+telegram-bot = "0.6"
+futures = "0.1"
+tokio-core = "0.1"
+rusqlite={version = "0.15", features = ["chrono"]}
+chrono="0.4"
+curl="0.4"
